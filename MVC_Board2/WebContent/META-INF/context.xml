@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource 
+	name="jdbc/MySQL"
+	auth="Container"
+	type="javax.sql.DataSource"
+	driverClassname="com.mysql.jdbc.Driver"
+	url="jdbc:mysql://localhost:3306/jsp_model2_db5"
+	username="root"
+	password="1234"
+	maxActive="100"
+	maxIdle="20"
+/>
+</Context>
