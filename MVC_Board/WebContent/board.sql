@@ -34,7 +34,7 @@ CREATE TABLE member(
 	 regDate DATE NOT NULL
 );
 
-
+select * from member
 
 
 

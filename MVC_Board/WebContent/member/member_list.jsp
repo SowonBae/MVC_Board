@@ -73,8 +73,8 @@ for(MemberBean member : memberList){
 %>
 <tr>
 <td>
-<%-- <input type="button" name="delete" value="삭제" onclick="location.href='MemberDelete.me?idx=<%=member.getIdx()%>'"> 
-	관리자 멤버 관리할떄 삭제하는 방법 --%>
+<input type="button" name="delete" value="삭제" onclick="location.href='MemberDelete.me?idx=<%=member.getIdx()%>'">
+<!-- 	관리자 멤버 관리할떄 삭제하는 방법  -->
 	<%=member.getIdx() %></td>
 <td><%=member.getName() %></td>
 <td><%=member.getId() %></td>
